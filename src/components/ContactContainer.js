@@ -5,13 +5,15 @@ export default class ContactContainer extends Component {
 //state here
     render() {
         return( 
-            <Container>
+            <div>
+                <div className='contact-title'>
                 <h1> Contact</h1>
                 <p>
-                    email 
+                Email: ljengel@uw.edu || @Peta
                 </p>
-                <Divider />
-            </Container>
+                </div>
+              
+            </div>
         )
     }
 }

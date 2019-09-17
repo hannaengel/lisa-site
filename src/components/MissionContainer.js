@@ -1,18 +1,49 @@
 import React, { Component } from 'react'
-import { Container, Divider } from 'semantic-ui-react'
-export default class MissionContainer extends Component {
+import $ from 'jquery'
 
-//state here
+export default class MissionContainer extends Component {
+  
+    // someHandler = (e) => {
+    //     e.persist()
+    //     if (e.target.className = 'section-one'){
+    //         $('.section-one').hover(function() {
+    //             $('.container').toggleClass('before');
+    //         });
+
+    //         $('.section-two').hover(function() {
+    //             $('.container').toggleClass('after');
+    //         });
+    //     }
+    // }
+
+    someOtherHandler = (e) => {
+        // console.log(e)
+    }
+
     render() {
         return( 
-            <Container>
-                <Divider />
-                <h1> MISSION</h1>
+        <div>
+         <div  className="container">
+           <div 
+           className="section-one">
+             <div className="content center">
+               <h2> "Where they walk monkeys dance:
+                Our complex relationship with macaques"
+            </h2>
                 <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                Lisa Jones-Engel, PhD
                 </p>
-                <Divider />
-            </Container>
+             </div>
+           </div>
+
+           <div className="section-two">
+             <div className="content">
+             </div>
+           </div>
+         </div>
+         <div className="cta">
+         </div>
+         </div>
         )
     }
 }

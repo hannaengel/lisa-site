@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
     "semantic-ui-react": "^0.88.1"
@@ -32,7 +35,6 @@
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.39.3"
+    "babel-loader": "^8.0.6"
   }
 }
