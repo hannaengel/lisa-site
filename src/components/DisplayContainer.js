@@ -5,7 +5,7 @@ import MissionContainer  from './MissionContainer'
 import PublicationsContainer  from './PublicationsContainer'
 import GalleryContainer  from './GalleryContainer'
 import ContactContainer  from './ContactContainer'
-
+import QuoteContainer from './QuoteContainer'
 
 export default class DisplayContainer extends Component {
 
@@ -56,6 +56,7 @@ export default class DisplayContainer extends Component {
             <div>
                  <TopBarContainer />
                 <MissionContainer />
+                <QuoteContainer />
                 <IntroductionContainer />
                 <PublicationsContainer />
                 <GalleryContainer />
